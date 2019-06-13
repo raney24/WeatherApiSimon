@@ -18,3 +18,14 @@ A website that displays the current forecast of a city/state. The website also d
   - Manipulate/Gather all data for forecast
  - Gather user input
  - Display forecast based on user input
+
+## Instructions
+
+1. Run flask server
+> $env:FLASK_APP="hello.py"
+> flask run
+
+2. Run flask server with debug mode
+> $env:FLASK_APP="hello.py"
+> $env:FLASK_DEBUG=1
+> python -m flask run
